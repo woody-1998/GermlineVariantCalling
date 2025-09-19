@@ -1,9 +1,9 @@
 This is a germline variant calling workflow trying to repeat the [Study of Germline Varaints in Nothern Brazil](https://link.springer.com/content/pdf/10.1186/s12885-021-08089-9.pdf)
 
 1. Conda environment:
-   conda config --add channels bioconda
-   conda create -n nextflow python pandas matplotlib bcftools nextflow gatk4
-   conda activate nextflow
+   conda config --add channels bioconda \
+   conda create -n nextflow python pandas matplotlib bcftools nextflow gatk4 \
+   conda activate nextflow \
    brew install awscli
 
 2. Nextflow/nf-core/sarek
